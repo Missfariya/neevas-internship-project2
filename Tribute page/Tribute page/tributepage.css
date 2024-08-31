@@ -1,0 +1,323 @@
+*{ 
+    margin: 0rem; 
+    padding: 0rem; 
+    box-sizing: border-box; 
+    font-style: normal; 
+    font-family: sans-serif;
+} 
+html{ 
+    scroll-behavior: smooth;
+}
+
+.tribute-head { 
+    color: rgb(220, 231, 240);
+    /* display: inline-block; */ 
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    line-height: inherit; 
+    cursor: pointer;
+    /* white-space: nowrap; */
+} 
+
+ /* .frontpage { 
+    height: 20rem; 
+    /* position: fixed;  */
+#navbar{ 
+    height: 3.5rem;  
+    width: 90rem;
+  display: flex; 
+  justify-content:space-evenly; 
+ opacity: .8; 
+ border-bottom: 4px solid rgb(23, 207, 23); 
+} 
+#fixed{ 
+    position: fixed; 
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; 
+    background-color: #343a40 !important; 
+    
+}
+.icons{ 
+   
+    display: flex;  
+    align-items: center; 
+    color: rgb(179, 176, 172);  
+  
+    padding-inline-start: 27rem;
+}  
+.icons a{ 
+    text-decoration: none; 
+    /* color: rgb(179, 176, 172); */ 
+    color: rgb(207, 205, 202); 
+    /* cursor: pointer; */
+} 
+.icons a:hover{
+  color: rgb(252, 245, 245);
+}
+.nav-icon{ 
+    padding-right: .5rem;
+    padding-left: .5rem;
+} 
+
+.container{ 
+  
+    width: 100%;   
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;  
+ 
+}
+.main-head{  
+    font-family: "Merriweather", serif;
+   padding-top: 5rem; 
+   padding-left: 6rem; 
+   position:relative; 
+   top: 5.5rem; 
+ text-align:left; 
+    height: 10rem;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2; 
+    color: rgb(252, 251, 252); 
+
+} 
+strong{ 
+  font-weight: 600; 
+  font-family: "Merriweather", serif;
+}
+.column-flex{ 
+    height: 30rem; 
+    width: 63rem;
+    display: flex; 
+    flex-direction: column;  
+  justify-content: center; 
+  align-items: end; 
+  padding-top: 7rem; 
+} 
+.row{ 
+    height: 20rem;
+    display: flex; 
+    margin: 3rem 0rem 0rem 0rem;
+} 
+.book{ 
+    height: 2rem; 
+    width: 2rem;
+    padding: .4rem; 
+    text-align: center;
+    color: #55d600; 
+   font-size: 1.2rem; 
+   border-radius: .3rem; 
+  background-color: rgb(245, 236, 245); 
+  transform: skewY(-20deg); 
+   position: relative; 
+   top: 1rem; 
+   left: 6rem; 
+  
+} 
+.text{  
+    position:relative; 
+    left: 9rem; 
+   color: #e6dfdf; 
+   font-family: "Playfair Display"; 
+} 
+.container.hero-img{ 
+    /* position: fixed; */
+    background-image: url("./Images/pexels-photo-189532_iorh7l.jpg"); 
+    background-size: cover; 
+    height: 50rem; 
+    background-color: #535658; 
+   background-blend-mode: multiply; 
+   background-attachment: fixed;
+}
+#play-section{ 
+    height: 18rem; 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto; 
+    background-color: rgb(59, 55, 55); 
+    color: rgb(245, 236, 245); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} 
+.play-content{ 
+    position: relative; 
+    left: 11rem;
+    width: 60rem; 
+    text-align: center;
+}
+.play-head{ 
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal; 
+    text-align: center; 
+    font-size: 3.5rem;
+    line-height: 1.2; 
+    position: relative;
+    bottom: 3rem;
+} 
+p.play-para{  
+    margin-bottom: .7rem;
+    text-align: center;
+    position: relative;
+    bottom: 1.2rem; 
+}
+.findout-button button{ 
+    height: 2.5rem; 
+    width: 8rem; 
+    position: absolute; 
+    left: 27rem;
+    color: #868e96;
+    background-color: transparent;
+    background-image: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid #cbd2d8;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem; 
+    cursor: pointer; 
+    
+}
+.findout-button button:hover{ 
+  color: #faf7f7;   
+  background-color: gray;
+} 
+
+#quotes-section{ 
+    height: 35rem; 
+    width: 100%; 
+    flex-wrap: wrap;
+    padding: 2.2rem 0rem 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    background-color: #f7f7e2;
+   
+}
+
+.img-container{ 
+    background-image: url("./Images/ws_iizc9e\ \(1\).jpg"); 
+    background-color: #f7f7e2;
+    background-blend-mode: multiply; 
+    background-size: cover; 
+    height: 25rem; 
+    width: 25rem; 
+    border-radius: 15rem; 
+    display: grid; 
+    margin: 5rem 5rem 5rem 5rem;
+   
+} 
+.Shakespeare-img{ 
+    /* position: relative;  */
+}
+.quotes-head{ 
+    position: relative; 
+    bottom: 9.5rem;
+   right: 4rem;
+    font-family: "Merriweather", serif;
+    font-size: 2rem; 
+    margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #868e96 !important; 
+} 
+.sub-sec{ 
+    display: flex; 
+   flex-direction: column; 
+   flex-wrap: nowrap; 
+   justify-content:space-between; 
+   /* text-align: end;  */
+   order: 1;
+} 
+.quotes-container{ 
+    position: relative; 
+    margin: 0;
+    bottom: 7rem;
+    height: 5rem; 
+    justify-content: space-evenly; 
+flex-direction: column; 
+ line-height: 1rem; 
+ /* padding-bottom: 10rem; */
+} 
+.quotes-container i{  
+    position: relative; 
+    right: 5rem;
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; 
+   
+} 
+.quotes-container p{  
+    position: relative; 
+    bottom: 2rem;
+    color: #868e96 !important;
+    height: 5rem; 
+    width: 25rem; 
+    margin-right: 10rem; 
+} 
+#end-section{ 
+    border: 4px solid rgb(23, 207, 23); 
+    height: 35rem;  
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;  
+  color:#fff; 
+  background-color: #343a40;  
+
+} 
+.lastcolumn-head1{ 
+    font-family: "Merriweather", serif;
+    font-size: 2rem; 
+    font-weight: 600;
+    position: relative; 
+    top: 3rem; 
+    left: 5rem; 
+} 
+.lastcolumn-head2{ 
+    font-family: "Merriweather", serif;
+    font-size: 2rem; 
+    font-weight: 600;
+    position: relative; 
+    top: 1rem; 
+    left: 5rem; 
+} 
+.endtext1{ 
+   font-size: 1rem; 
+   width: 49rem; 
+   margin-top: 2rem;
+   margin-left: 5rem; 
+   margin-right: 13rem;
+} 
+.endtext2{ 
+    font-size: 1rem; 
+   width: 49rem; 
+   margin-top: 0rem;
+   margin-left: 5rem; 
+   margin-right: 13rem;
+} 
+.copyright{ 
+    height: 7rem; 
+    background-color: rgb(36, 36, 49); 
+    padding-top: 1rem;
+    text-align: center !important; 
+    text-align: center; 
+    color: #fff;
+} 
+.copyright p{ 
+   padding-top: .8rem;
+} 
+.copyright h2{ 
+    padding-top: 1rem;
+}
